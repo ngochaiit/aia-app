@@ -1,0 +1,19 @@
+.products-container {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    @media screen and (max-width: 1024px) {
+        grid-template-columns: auto auto auto;
+      }
+      
+      @media screen and (max-width: 768px) {
+        grid-template-columns: auto auto;
+      }
+
+      @media screen and (max-width: 600px) {
+        grid-template-columns: auto;
+      }
+}

@@ -1,0 +1,26 @@
+.productCardContainer {
+    justify-content: space-between;
+    .productCartInfo { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        & p {
+            margin: 5px;
+            text-align: center;
+        }
+        & img {
+            width: 200px;
+            height: 300px;
+            object-fit: contain;
+        }
+      
+    }
+    .productCardActions { 
+        display: flex;
+        justify-content: center;
+        button + button {
+            margin-left: 10px;
+          }
+    }
+}

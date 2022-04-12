@@ -1,0 +1,57 @@
+@import '../../../assets/variable.scss';
+
+.wrapper {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+  svg {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  h1 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 1;
+    margin: 6px 0 6px 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  button + div {
+    margin-left: 10px;
+  }
+  
+  .welcome {
+    color: #333;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .btnCard-container {
+    position: relative;
+  }
+  
+  .status-badge {
+    position: absolute;
+    top: -6px;
+    left: 81%;
+    border-radius: 50%;
+    padding: 5px 5px;
+    background: #4cb3e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  }
+ 
